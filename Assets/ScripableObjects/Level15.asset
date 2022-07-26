@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b5d13da75acec40aff26ad74497f62, type: 3}
+  m_Name: Level15
+  m_EditorClassIdentifier: 
+  _monsters:
+  - {fileID: 2840612604432673332, guid: b6f2fdb243097254b9ff07236fd9c26d, type: 3}
+  - {fileID: 5890225089132513927, guid: d26db191ba65e984ab355b3f73ea3a47, type: 3}
+  - {fileID: 7515761044871465735, guid: 1e36acde584c60e47b645835ce08eba9, type: 3}
+  _powerUp: {fileID: 7364817957784313711, guid: 73b0655953e424e4da7612c7c060628a, type: 3}

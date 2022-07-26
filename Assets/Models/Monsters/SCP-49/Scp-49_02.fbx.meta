@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: 48efd44e95255874f87f211f91f8f805
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 6720303635017113406
+    second: Attack
+  - first:
+      74: 4348485665485846014
+    second: Death
+  - first:
+      74: -3100369314251171874
+    second: Idle
+  - first:
+      74: 5522812681064789136
+    second: Run
+  - first:
+      74: -2558345160010418933
+    second: SuperAttack
+  - first:
+      74: 5231757200473368705
+    second: TakeHit
+  - first:
+      74: 3186895161888580160
+    second: VictoryPose
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Attack' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'mixamorig:Hips' has scale animation that
+      will be discarded.\n\t'mixamorig:Spine' has scale animation that will be discarded.\n\t'mixamorig:Spine1'
+      has scale animation that will be discarded.\n\t'mixamorig:Spine2' has scale
+      animation that will be discarded.\n\t'mixamorig:RightShoulder' has scale animation
+      that will be discarded.\n\t'mixamorig:RightArm' has scale animation that will
+      be discarded.\n\t'mixamorig:RightForeArm' has translation animation that will
+      be discarded.\n\t'mixamorig:RightForeArm' has scale animation that will be
+      discarded.\n\t'mixamorig:RightHand' has translation animation that will be
+      discarded.\n\t'mixamorig:RightHand' has scale animation that will be discarded.\n\t'mixamorig:Neck'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftShoulder' has
+      scale animation that will be discarded.\n\t'mixamorig:LeftArm' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftForeArm' has translation animation
+      that will be discarded.\n\t'mixamorig:LeftForeArm' has scale animation that
+      will be discarded.\n\t'mixamorig:LeftHand' has translation animation that will
+      be discarded.\n\t'mixamorig:LeftHand' has scale animation that will be discarded.\n\t'mixamorig:LeftUpLeg'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftLeg' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftLeg' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftFoot' has translation animation that
+      will be discarded.\n\t'mixamorig:LeftFoot' has scale animation that will be
+      discarded.\n\t'mixamorig:LeftToeBase' has translation animation that will be
+      discarded.\n\t'mixamorig:LeftToeBase' has scale animation that will be discarded.\n\t'mixamorig:RightUpLeg'
+      has scale animation that will be discarded.\n\t'mixamorig:RightLeg' has translation
+      animation that will be discarded.\n\t'mixamorig:RightLeg' has scale animation
+      that will be discarded.\n\t'mixamorig:RightFoot' has translation animation
+      that will be discarded.\n\t'mixamorig:RightFoot' has scale animation that will
+      be discarded.\n\t'mixamorig:RightToeBase' has scale animation that will be
+      discarded.\n\nClip 'Death' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'mixamorig:Hips'
+      has scale animation that will be discarded.\n\t'mixamorig:Spine' has scale
+      animation that will be discarded.\n\t'mixamorig:Spine1' has scale animation
+      that will be discarded.\n\t'mixamorig:Spine2' has scale animation that will
+      be discarded.\n\t'mixamorig:RightShoulder' has translation animation that will
+      be discarded.\n\t'mixamorig:RightShoulder' has scale animation that will be
+      discarded.\n\t'mixamorig:RightArm' has translation animation that will be discarded.\n\t'mixamorig:RightArm'
+      has scale animation that will be discarded.\n\t'mixamorig:RightForeArm' has
+      translation animation that will be discarded.\n\t'mixamorig:RightForeArm' has
+      scale animation that will be discarded.\n\t'mixamorig:RightHand' has translation
+      animation that will be discarded.\n\t'mixamorig:RightHand' has scale animation
+      that will be discarded.\n\t'mixamorig:Neck' has translation animation that
+      will be discarded.\n\t'mixamorig:Neck' has scale animation that will be discarded.\n\t'mixamorig:LeftShoulder'
+      has translation animation that will be discarded.\n\t'mixamorig:LeftShoulder'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftArm' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftArm' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftForeArm' has scale animation that
+      will be discarded.\n\t'mixamorig:LeftHand' has translation animation that will
+      be discarded.\n\t'mixamorig:LeftHand' has scale animation that will be discarded.\n\t'mixamorig:LeftUpLeg'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftLeg' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftLeg' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftFoot' has translation animation that
+      will be discarded.\n\t'mixamorig:LeftFoot' has scale animation that will be
+      discarded.\n\t'mixamorig:LeftToeBase' has translation animation that will be
+      discarded.\n\t'mixamorig:LeftToeBase' has scale animation that will be discarded.\n\t'mixamorig:RightUpLeg'
+      has scale animation that will be discarded.\n\t'mixamorig:RightLeg' has translation
+      animation that will be discarded.\n\t'mixamorig:RightLeg' has scale animation
+      that will be discarded.\n\t'mixamorig:RightFoot' has translation animation
+      that will be discarded.\n\t'mixamorig:RightFoot' has scale animation that will
+      be discarded.\n\t'mixamorig:RightToeBase' has translation animation that will
+      be discarded.\n\t'mixamorig:RightToeBase' has scale animation that will be
+      discarded.\n\nClip 'Idle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'mixamorig:Hips'
+      has scale animation that will be discarded.\n\t'mixamorig:Spine' has scale
+      animation that will be discarded.\n\t'mixamorig:Spine1' has scale animation
+      that will be discarded.\n\t'mixamorig:Spine2' has scale animation that will
+      be discarded.\n\t'mixamorig:RightShoulder' has scale animation that will be
+      discarded.\n\t'mixamorig:RightArm' has scale animation that will be discarded.\n\t'mixamorig:RightForeArm'
+      has scale animation that will be discarded.\n\t'mixamorig:RightHand' has translation
+      animation that will be discarded.\n\t'mixamorig:RightHand' has scale animation
+      that will be discarded.\n\t'mixamorig:Neck' has scale animation that will be
+      discarded.\n\t'mixamorig:LeftShoulder' has scale animation that will be discarded.\n\t'mixamorig:LeftArm'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftForeArm' has
+      scale animation that will be discarded.\n\t'mixamorig:LeftHand' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftHand' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftUpLeg' has scale animation that will
+      be discarded.\n\t'mixamorig:LeftLeg' has translation animation that will be
+      discarded.\n\t'mixamorig:LeftLeg' has scale animation that will be discarded.\n\t'mixamorig:LeftFoot'
+      has translation animation that will be discarded.\n\t'mixamorig:LeftFoot' has
+      scale animation that will be discarded.\n\t'mixamorig:LeftToeBase' has scale
+      animation that will be discarded.\n\t'mixamorig:RightUpLeg' has scale animation
+      that will be discarded.\n\t'mixamorig:RightLeg' has translation animation that
+      will be discarded.\n\t'mixamorig:RightLeg' has scale animation that will be
+      discarded.\n\t'mixamorig:RightFoot' has translation animation that will be
+      discarded.\n\t'mixamorig:RightFoot' has scale animation that will be discarded.\n\t'mixamorig:RightToeBase'
+      has scale animation that will be discarded.\n\nClip 'Run' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'mixamorig:Hips' has scale
+      animation that will be discarded.\n\t'mixamorig:Spine' has scale animation
+      that will be discarded.\n\t'mixamorig:Spine1' has scale animation that will
+      be discarded.\n\t'mixamorig:Spine2' has scale animation that will be discarded.\n\t'mixamorig:RightShoulder'
+      has scale animation that will be discarded.\n\t'mixamorig:RightArm' has scale
+      animation that will be discarded.\n\t'mixamorig:RightForeArm' has translation
+      animation that will be discarded.\n\t'mixamorig:RightForeArm' has scale animation
+      that will be discarded.\n\t'mixamorig:RightHand' has translation animation
+      that will be discarded.\n\t'mixamorig:RightHand' has scale animation that will
+      be discarded.\n\t'mixamorig:Neck' has scale animation that will be discarded.\n\t'mixamorig:LeftShoulder'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftArm' has scale
+      animation that will be discarded.\n\t'mixamorig:LeftForeArm' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftForeArm' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftHand' has translation animation that
+      will be discarded.\n\t'mixamorig:LeftHand' has scale animation that will be
+      discarded.\n\t'mixamorig:LeftUpLeg' has scale animation that will be discarded.\n\t'mixamorig:LeftLeg'
+      has translation animation that will be discarded.\n\t'mixamorig:LeftLeg' has
+      scale animation that will be discarded.\n\t'mixamorig:LeftFoot' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftFoot' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftToeBase' has translation animation
+      that will be discarded.\n\t'mixamorig:LeftToeBase' has scale animation that
+      will be discarded.\n\t'mixamorig:RightUpLeg' has scale animation that will
+      be discarded.\n\t'mixamorig:RightLeg' has translation animation that will be
+      discarded.\n\t'mixamorig:RightLeg' has scale animation that will be discarded.\n\t'mixamorig:RightFoot'
+      has scale animation that will be discarded.\n\t'mixamorig:RightToeBase' has
+      scale animation that will be discarded.\n\nClip 'SuperAttack' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'mixamorig:Hips' has scale
+      animation that will be discarded.\n\t'mixamorig:Spine' has scale animation
+      that will be discarded.\n\t'mixamorig:Spine1' has scale animation that will
+      be discarded.\n\t'mixamorig:Spine2' has scale animation that will be discarded.\n\t'mixamorig:RightShoulder'
+      has scale animation that will be discarded.\n\t'mixamorig:RightArm' has translation
+      animation that will be discarded.\n\t'mixamorig:RightArm' has scale animation
+      that will be discarded.\n\t'mixamorig:RightForeArm' has translation animation
+      that will be discarded.\n\t'mixamorig:RightForeArm' has scale animation that
+      will be discarded.\n\t'mixamorig:RightHand' has translation animation that
+      will be discarded.\n\t'mixamorig:RightHand' has scale animation that will be
+      discarded.\n\t'mixamorig:Neck' has scale animation that will be discarded.\n\t'mixamorig:LeftShoulder'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftArm' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftArm' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftForeArm' has translation animation
+      that will be discarded.\n\t'mixamorig:LeftForeArm' has scale animation that
+      will be discarded.\n\t'mixamorig:LeftHand' has translation animation that will
+      be discarded.\n\t'mixamorig:LeftHand' has scale animation that will be discarded.\n\t'mixamorig:LeftUpLeg'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftLeg' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftLeg' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftFoot' has translation animation that
+      will be discarded.\n\t'mixamorig:LeftFoot' has scale animation that will be
+      discarded.\n\t'mixamorig:LeftToeBase' has translation animation that will be
+      discarded.\n\t'mixamorig:LeftToeBase' has scale animation that will be discarded.\n\t'mixamorig:RightUpLeg'
+      has scale animation that will be discarded.\n\t'mixamorig:RightLeg' has translation
+      animation that will be discarded.\n\t'mixamorig:RightLeg' has scale animation
+      that will be discarded.\n\t'mixamorig:RightFoot' has translation animation
+      that will be discarded.\n\t'mixamorig:RightFoot' has scale animation that will
+      be discarded.\n\t'mixamorig:RightToeBase' has scale animation that will be
+      discarded.\n\nClip 'TakeHit' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'mixamorig:Hips' has scale animation that will be discarded.\n\t'mixamorig:Spine'
+      has scale animation that will be discarded.\n\t'mixamorig:Spine1' has scale
+      animation that will be discarded.\n\t'mixamorig:Spine2' has scale animation
+      that will be discarded.\n\t'mixamorig:RightShoulder' has scale animation that
+      will be discarded.\n\t'mixamorig:RightArm' has scale animation that will be
+      discarded.\n\t'mixamorig:RightForeArm' has translation animation that will
+      be discarded.\n\t'mixamorig:RightForeArm' has scale animation that will be
+      discarded.\n\t'mixamorig:RightHand' has translation animation that will be
+      discarded.\n\t'mixamorig:RightHand' has scale animation that will be discarded.\n\t'mixamorig:Neck'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftShoulder' has
+      scale animation that will be discarded.\n\t'mixamorig:LeftArm' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftForeArm' has scale animation that
+      will be discarded.\n\t'mixamorig:LeftHand' has translation animation that will
+      be discarded.\n\t'mixamorig:LeftHand' has scale animation that will be discarded.\n\t'mixamorig:LeftUpLeg'
+      has scale animation that will be discarded.\n\t'mixamorig:LeftLeg' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftLeg' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftFoot' has translation animation that
+      will be discarded.\n\t'mixamorig:LeftFoot' has scale animation that will be
+      discarded.\n\t'mixamorig:LeftToeBase' has translation animation that will be
+      discarded.\n\t'mixamorig:LeftToeBase' has scale animation that will be discarded.\n\t'mixamorig:RightUpLeg'
+      has scale animation that will be discarded.\n\t'mixamorig:RightLeg' has translation
+      animation that will be discarded.\n\t'mixamorig:RightLeg' has scale animation
+      that will be discarded.\n\t'mixamorig:RightFoot' has translation animation
+      that will be discarded.\n\t'mixamorig:RightFoot' has scale animation that will
+      be discarded.\n\t'mixamorig:RightToeBase' has scale animation that will be
+      discarded.\n\nClip 'VictoryPose' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'mixamorig:Hips' has scale animation that will be discarded.\n\t'mixamorig:Spine'
+      has scale animation that will be discarded.\n\t'mixamorig:Spine1' has scale
+      animation that will be discarded.\n\t'mixamorig:Spine2' has scale animation
+      that will be discarded.\n\t'mixamorig:RightShoulder' has scale animation that
+      will be discarded.\n\t'mixamorig:RightArm' has scale animation that will be
+      discarded.\n\t'mixamorig:RightForeArm' has scale animation that will be discarded.\n\t'mixamorig:RightHand'
+      has translation animation that will be discarded.\n\t'mixamorig:RightHand'
+      has scale animation that will be discarded.\n\t'mixamorig:Neck' has scale animation
+      that will be discarded.\n\t'mixamorig:LeftShoulder' has scale animation that
+      will be discarded.\n\t'mixamorig:LeftArm' has scale animation that will be
+      discarded.\n\t'mixamorig:LeftForeArm' has scale animation that will be discarded.\n\t'mixamorig:LeftHand'
+      has translation animation that will be discarded.\n\t'mixamorig:LeftHand' has
+      scale animation that will be discarded.\n\t'mixamorig:LeftUpLeg' has scale
+      animation that will be discarded.\n\t'mixamorig:LeftLeg' has translation animation
+      that will be discarded.\n\t'mixamorig:LeftLeg' has scale animation that will
+      be discarded.\n\t'mixamorig:LeftFoot' has translation animation that will be
+      discarded.\n\t'mixamorig:LeftFoot' has scale animation that will be discarded.\n\t'mixamorig:LeftToeBase'
+      has translation animation that will be discarded.\n\t'mixamorig:LeftToeBase'
+      has scale animation that will be discarded.\n\t'mixamorig:RightUpLeg' has scale
+      animation that will be discarded.\n\t'mixamorig:RightLeg' has translation animation
+      that will be discarded.\n\t'mixamorig:RightLeg' has scale animation that will
+      be discarded.\n\t'mixamorig:RightFoot' has translation animation that will
+      be discarded.\n\t'mixamorig:RightFoot' has scale animation that will be discarded.\n\t'mixamorig:RightToeBase'
+      has scale animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: Attack
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.35002497
+        functionName: RangeAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.99773115
+        functionName: Run
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Death
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SuperAttack
+      takeName: SuperAttack
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.41875
+        functionName: Hit
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TakeHit
+      takeName: TakeHit
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: VictoryPose
+      takeName: VictoryPose
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: mixamorig:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Scp-49_02(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SCP-49-02.001
+      parentName: Scp-49_02(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Hips
+      parentName: Scp-49_02(Clone)
+      position: {x: 0.003903, y: 0.6495032, z: 0.005195}
+      rotation: {x: 0.0000000014551915, y: -0.000000023283068, z: 0.0000000029103835, w: 1}
+      scale: {x: 1.0000136, y: 1.0000247, z: 1.0000154}
+    - name: mixamorig:Spine
+      parentName: mixamorig:Hips
+      position: {x: -0.000005283456, y: 0.09639312, z: -0.005591039}
+      rotation: {x: -0.02896279, y: -0.000000023189, z: -0.000000003583505, w: 0.9995805}
+      scale: {x: 1.0000175, y: 1.0000112, z: 0.99997705}
+    - name: mixamorig:Spine1
+      parentName: mixamorig:Spine
+      position: {x: 0.000002484846, y: 0.11264691, z: 0.0000021867938}
+      rotation: {x: -0, y: 0.00000006905795, z: 0.000000015666359, w: 1}
+      scale: {x: 0.9999922, y: 0.99999505, z: 0.9999638}
+    - name: mixamorig:Spine2
+      parentName: mixamorig:Spine1
+      position: {x: -0.000004069413, y: 0.1287409, z: 0.00000060863255}
+      rotation: {x: -0.000000027939677, y: 3.3703174e-10, z: -0.0000000058110006, w: 1}
+      scale: {x: 0.9999972, y: 0.9999497, z: 1.000036}
+    - name: mixamorig:RightShoulder
+      parentName: mixamorig:Spine2
+      position: {x: 0.05324245, y: 0.13143578, z: -0.0007593526}
+      rotation: {x: -0.5540658, y: -0.43730736, z: 0.56210536, w: -0.43105793}
+      scale: {x: 1.0000622, y: 0.9999916, z: 1.0000384}
+    - name: mixamorig:RightArm
+      parentName: mixamorig:RightShoulder
+      position: {x: 0.00000417762, y: 0.10821324, z: -0.0000019019271}
+      rotation: {x: 0.10016489, y: -0.11027345, z: 0.003579914, w: -0.9888347}
+      scale: {x: 0.99988663, y: 0.9999836, z: 0.99995524}
+    - name: mixamorig:RightForeArm
+      parentName: mixamorig:RightArm
+      position: {x: 0.00000065548534, y: 0.1786446, z: 0.000008989039}
+      rotation: {x: -0.018021949, y: -0.0020444691, z: 0.03301508, w: 0.9992903}
+      scale: {x: 1.0000926, y: 1.0000292, z: 0.99998677}
+    - name: mixamorig:RightHand
+      parentName: mixamorig:RightForeArm
+      position: {x: -0.000004502645, y: 0.21461895, z: -0.00000632635}
+      rotation: {x: -0.000000100582824, y: -0.00000005005858, z: 0.00000004210869, w: 1}
+      scale: {x: 0.9999353, y: 0.9999802, z: 1.0000184}
+    - name: mixamorig:Neck
+      parentName: mixamorig:Spine2
+      position: {x: 0.0000017526296, y: 0.14484037, z: -0.00000031381933}
+      rotation: {x: 0.02896284, y: -0.000000011468071, z: -0.0000000061554957, w: 0.9995805}
+      scale: {x: 0.9999291, y: 1.0000229, z: 1.000036}
+    - name: mixamorig:Head
+      parentName: mixamorig:Neck
+      position: {x: 0.0000023540395, y: 0.061180275, z: 0.020169917}
+      rotation: {x: -0, y: -0, z: -1.9428903e-16, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: mixamorig:LeftShoulder
+      parentName: mixamorig:Spine2
+      position: {x: -0.053239066, y: 0.1314396, z: -0.00079544797}
+      rotation: {x: 0.5538609, y: -0.4374688, z: 0.5622911, w: 0.43091527}
+      scale: {x: 1.0000595, y: 0.99997026, z: 1.0000706}
+    - name: mixamorig:LeftArm
+      parentName: mixamorig:LeftShoulder
+      position: {x: -0.0000019507, y: 0.108215876, z: 0.000001867807}
+      rotation: {x: -0.09956585, y: -0.11482023, z: 0.0125756245, w: 0.988304}
+      scale: {x: 0.99993616, y: 1.0000647, z: 0.9999506}
+    - name: mixamorig:LeftForeArm
+      parentName: mixamorig:LeftArm
+      position: {x: 0.0000018290468, y: 0.17866933, z: 0.0000009337819}
+      rotation: {x: -0.018481737, y: 0.0023041067, z: -0.0322193, w: 0.99930733}
+      scale: {x: 1.0000799, y: 0.9999116, z: 0.9999943}
+    - name: mixamorig:LeftHand
+      parentName: mixamorig:LeftForeArm
+      position: {x: -0.0000011264258, y: 0.21500915, z: 0.0000026309624}
+      rotation: {x: 0.000000042375166, y: -0.00000006717163, z: 0.000000091584276, w: 1}
+      scale: {x: 0.99993974, y: 1.0000137, z: 1.0000323}
+    - name: mixamorig:LeftUpLeg
+      parentName: mixamorig:Hips
+      position: {x: -0.10059623, y: -0.053558048, z: -0.002825437}
+      rotation: {x: 0.000000020011313, y: -0.0022722455, z: 0.99999744, w: -0.0000000010459268}
+      scale: {x: 1.0070858, y: 1.0028532, z: 1.0021392}
+    - name: mixamorig:LeftLeg
+      parentName: mixamorig:LeftUpLeg
+      position: {x: -0.0026276414, y: 0.2831617, z: 0.0010468627}
+      rotation: {x: -0.005088539, y: -0.000027513779, z: 0.008050144, w: 0.9999547}
+      scale: {x: 0.9956462, y: 0.99733937, z: 1.0070646}
+    - name: mixamorig:LeftFoot
+      parentName: mixamorig:LeftLeg
+      position: {x: 0.00014953736, y: 0.20714884, z: -0.0000134485745}
+      rotation: {x: 0.42789137, y: 0.042262528, z: -0.020230133, w: 0.90261483}
+      scale: {x: 1.0009825, y: 1.0006399, z: 0.9985511}
+    - name: mixamorig:LeftToeBase
+      parentName: mixamorig:LeftFoot
+      position: {x: -0.0013347645, y: 0.13628435, z: 0.00037836164}
+      rotation: {x: 0.33843642, y: -0.052071013, z: 0.019191688, w: 0.93935144}
+      scale: {x: 0.99947244, y: 0.99991196, z: 1.0005815}
+    - name: mixamorig:RightUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 0.100601524, y: -0.05354728, z: 0.000814645}
+      rotation: {x: 0.000000046566136, y: -0.000000053842093, z: 1, w: -0.000000032014214}
+      scale: {x: 1.0000465, y: 0.9999886, z: 0.99999493}
+    - name: mixamorig:RightLeg
+      parentName: mixamorig:RightUpLeg
+      position: {x: 0.0000054595457, y: 0.28315857, z: -0.0000068483605}
+      rotation: {x: -0.006749581, y: -0.00009566963, z: -0.008050925, w: 0.99994487}
+      scale: {x: 0.99998087, y: 0.9999729, z: 1.0000072}
+    - name: mixamorig:RightFoot
+      parentName: mixamorig:RightLeg
+      position: {x: 0.00000007999351, y: 0.20714416, z: -0.000007482494}
+      rotation: {x: 0.42046306, y: -0.043268934, z: 0.020101106, w: 0.9060544}
+      scale: {x: 1.0000184, y: 0.9999662, z: 1.00002}
+    - name: mixamorig:RightToeBase
+      parentName: mixamorig:RightFoot
+      position: {x: -0.000006003994, y: 0.1340734, z: 0.0000035899216}
+      rotation: {x: 0.34561586, y: 0.05336134, z: -0.019706551, w: 0.93665034}
+      scale: {x: 0.9999309, y: 0.9999872, z: 1.00002}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
